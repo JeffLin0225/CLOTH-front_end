@@ -1,7 +1,7 @@
 <template>
 <div class="divimg" >
     <br>
-    
+      
     <div class="row">
         <h3 class="col-2"><strong><font-awesome-icon :icon="['fas', 'tags']" /> 所有特價活動</strong></h3>
         <div class="col-2">
