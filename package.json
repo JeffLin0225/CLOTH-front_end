@@ -1,0 +1,33 @@
+{
+  "name": "clothvue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@stomp/stompjs": "^6.1.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "element-plus": "^2.7.7",
+    "moment": "^2.30.1",
+    "sockjs-client": "^1.6.1",
+    "sweetalert2": "^11.12.1",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0",
+    "vue-upload-component": "^3.1.8",
+    "vuejs-paginate-next": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
