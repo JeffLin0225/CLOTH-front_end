@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '@/views/Home.vue';
-import NotFound from '@/views/NotFound.vue';
-import routerPages from '@/views/pages/router-pages.js';
-import routerSecure from '@/views/secure/router-secure';
-import routerActivity from '@/views/activityPage/router-Activity.js';
+import Home from '../index/Home.vue';
+import NotFound from '../index/NotFound.vue';
+import routerPages from '../views/pages/router-pages.js';
+import routerSecure from '../views/secure/router-secure';
+import routerActivity from '../views/activityPage/router-Activity.js';
 
-import Login from '@/views/secure/Login.vue';
+import Login from '../views/secure/Login.vue';
 
 const routes = [
     { name: "home-link", path: "/", component: Home },

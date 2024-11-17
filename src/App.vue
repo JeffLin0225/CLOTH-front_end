@@ -13,7 +13,7 @@
   
 
   <script setup>
-  import MyNarvbar from '@/views/MyNavbar.vue';
+  import MyNarvbar from '../index/MyNavbar.vue';
   import {ref , provide } from 'vue'
 
   const username = ref(null)

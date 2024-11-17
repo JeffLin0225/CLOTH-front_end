@@ -28,7 +28,7 @@
     
 <script setup>
     import Swal from 'sweetalert2';
-    import axiosapi from '@/plugins/axios.js';
+    import axiosapi from '../plugins/axios.js';
     // import { defineExpose } from 'vue';
     const exampleRef = ref(null);
     const exampleModal = ref(null);

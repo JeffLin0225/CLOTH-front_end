@@ -1,10 +1,10 @@
-import Activity from "@/views/activityPage/Activity.vue";
-import Coupon from "@/views/activityPage/Coupon.vue";
-import Admin from "@/views/activityPage/Admin.vue";
-import Orders from "@/views/activityPage/Orders.vue";
-import Customerservice from "@/views/activityPage/Customerservice.vue";
-import Comment from "@/views/activityPage/Comment.vue";
-import USER from "@/views/activityPage/USER.vue";
+import Activity from "./Activity.vue";
+import Coupon from "./Coupon.vue";
+import Admin from "./Admin.vue";
+import Orders from "./Orders.vue";
+import Customerservice from "../views/activityPage/Customerservice.vue";
+import Comment from "../views/activityPage/Comment.vue";
+import USER from "../views/activityPage/USER.vue";
 
 export default [
     { name: "pages-activity-link", path: "/activityPage/Activity", component: Activity },
